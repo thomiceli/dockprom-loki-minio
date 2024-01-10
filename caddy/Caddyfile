@@ -29,3 +29,7 @@
     }    
     reverse_proxy pushgateway:9091
 }
+
+:3100 {
+    reverse_proxy loki:3100
+}
